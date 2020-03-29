@@ -1,0 +1,12 @@
+﻿<Window x:Class="WpfProject.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfProject"
+        mc:Ignorable="d"
+        Title="Help" Height="450" Width="800" Closing="Window_Closing" ResizeMode="NoResize" FontSize="18">
+    <Grid>
+        <TextBox x:Name="HelpInfo" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="422" Width="785" AllowDrop="True" ScrollViewer.VerticalScrollBarVisibility="Auto" IsReadOnly="True" FontSize="16"/>
+    </Grid>
+</Window>

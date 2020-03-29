@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfProject.WelcomeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfProject"
+        mc:Ignorable="d"
+        Title="Welcome" Height="450" Width="800">
+    <Grid>
+        <Viewbox Stretch="Fill">
+            <Canvas Height="450" Width="800">
+                <Canvas.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/火柴背景.jpg" Stretch="Uniform" TileMode="Tile"/>
+                </Canvas.Background>
+                <Label Content="欢迎使用火柴数学题求解系统" Height="150" Width="620" Canvas.Left="90" Canvas.Top="107" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="36" FontWeight="Bold"/>
+                <Button Content="开始" Width="103" Canvas.Left="220" Canvas.Top="257" Height="46" FontSize="20" Click="Button_Click"/>
+                <Button Content="离开" Width="103" Canvas.Left="456" Canvas.Top="257" Height="46" FontSize="20" Click="Button_Click_1"/>
+                <Button x:Name="welcome" Content="Button" Width="52" Height="51" Canvas.Left="738" Canvas.Top="23" Foreground="{x:Null}" Click="Button_Click_2">
+                    <Button.Background>
+                        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/help.jpg" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</Window>

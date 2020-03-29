@@ -1,0 +1,451 @@
+﻿<Window x:Class="WpfProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfProject"
+        mc:Ignorable="d"
+        Title="开始解题" Height="450" Width="1300" Closed="Window_Closed">
+    <Grid>
+        <Viewbox Stretch="Fill" >
+            <Canvas Height="450" Width="1300">
+                <Image x:Name="image00" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="26" Canvas.Top="27"/>
+                <Image x:Name="image01" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="64" Canvas.Top="-12" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image02" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="102" Canvas.Top="27"/>
+                <Image x:Name="image03" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="63" Canvas.Top="63" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image04" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="26" Canvas.Top="103"/>
+                <Image x:Name="image05" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="102" Canvas.Top="103"/>
+                <Image x:Name="image06" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="63" Canvas.Top="132" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image10" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="120" Canvas.Top="26"/>
+                <Image x:Name="image11" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="160" Canvas.Top="-11" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image12" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="198" Canvas.Top="26"/>
+                <Image x:Name="image13" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="160" Canvas.Top="62" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image14" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="120" Canvas.Top="102"/>
+                <Image x:Name="image15" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="198" Canvas.Top="102"/>
+                <Image x:Name="image16" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="159" Canvas.Top="132" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image20" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="221" Canvas.Top="26"/>
+                <Image x:Name="image21" Height="76" Width="28" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="256" Canvas.Top="-12" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image22" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="28" Canvas.Left="291" Canvas.Top="26"/>
+                <Image x:Name="image23" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="255" Canvas.Top="62" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image24" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="220" Canvas.Top="102"/>
+                <Image x:Name="image25" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="291" Canvas.Top="102"/>
+                <Image x:Name="image26" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="254" Canvas.Top="133" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image30" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="340" Canvas.Top="60" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="0"/>
+                            <TranslateTransform Y="0"/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image31" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="341" Canvas.Top="61" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform Y="0"/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image40" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="391" Canvas.Top="26"/>
+                <Image x:Name="image41" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="426" Canvas.Top="-12" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image42" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="463" Canvas.Top="26"/>
+                <Image x:Name="image43" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="427" Canvas.Top="61" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image44" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="390" Canvas.Top="102"/>
+                <Image x:Name="image45" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="465" Canvas.Top="102"/>
+                <Image x:Name="image46" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="426" Canvas.Top="133" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image50" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="483" Canvas.Top="26"/>
+                <Image x:Name="image51" Height="76" Width="28" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="520" Canvas.Top="-11" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image52" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="559" Canvas.Top="26"/>
+                <Image x:Name="image53" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="520" Canvas.Top="63" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image54" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="483" Canvas.Top="102"/>
+                <Image x:Name="image55" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="561" Canvas.Top="102"/>
+                <Image x:Name="image56" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="521" Canvas.Top="133" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image60" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="579" Canvas.Top="26"/>
+                <Image x:Name="image61" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="615" Canvas.Top="-11" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image62" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="655" Canvas.Top="26"/>
+                <Image x:Name="image63" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="614" Canvas.Top="63" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image64" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="579" Canvas.Top="102"/>
+                <Image x:Name="image65" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="655" Canvas.Top="102"/>
+                <Image x:Name="image66" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="616" Canvas.Top="133" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image70" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="712" Canvas.Top="55" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform Y="0"/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image71" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="713" Canvas.Top="84" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform Y="0"/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image80" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="769" Canvas.Top="27"/>
+                <Image x:Name="image81" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="808" Canvas.Top="-11" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image82" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="847" Canvas.Top="27"/>
+                <Image x:Name="image83" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="806" Canvas.Top="62" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image84" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="769" Canvas.Top="102"/>
+                <Image x:Name="image85" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="847" Canvas.Top="102"/>
+                <Image x:Name="image86" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="806" Canvas.Top="136" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image90" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="866" Canvas.Top="26"/>
+                <Image x:Name="image91" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="905" Canvas.Top="-10" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image92" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="945" Canvas.Top="26"/>
+                <Image x:Name="image93" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="904" Canvas.Top="62" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image94" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="866" Canvas.Top="102"/>
+                <Image x:Name="image95" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="945" Canvas.Top="102"/>
+                <Image x:Name="image96" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="903" Canvas.Top="133" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image100" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="963" Canvas.Top="26"/>
+                <Image x:Name="image101" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="1000" Canvas.Top="-9" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image102" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="1039" Canvas.Top="27"/>
+                <Image x:Name="image103" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="1000" Canvas.Top="62" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image104" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="963" Canvas.Top="102"/>
+                <Image x:Name="image105" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="1039" Canvas.Top="102"/>
+                <Image x:Name="image106" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="998" Canvas.Top="134" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image110" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="1058" Canvas.Top="27"/>
+                <Image x:Name="image111" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="1096" Canvas.Top="-9" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image112" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="1137" Canvas.Top="27"/>
+                <Image x:Name="image113" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="1094" Canvas.Top="62" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image114" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="28" Canvas.Left="1058" Canvas.Top="103"/>
+                <Image x:Name="image115" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="1137" Canvas.Top="102"/>
+                <Image x:Name="image116" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="1098" Canvas.Top="133" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image120" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="1155" Canvas.Top="27"/>
+                <Image x:Name="image121" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="1195" Canvas.Top="-8" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image122" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="28" Canvas.Left="1234" Canvas.Top="27"/>
+                <Image x:Name="image123" Height="76" Width="29" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Canvas.Left="1192" Canvas.Top="62" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="image124" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="1155" Canvas.Top="102"/>
+                <Image x:Name="image125" Source="pack://siteoforigin:,,,/Resources/火柴黑白.png" Height="76" Width="29" Canvas.Left="1234" Canvas.Top="102"/>
+                <Image x:Name="image126" Source="pack://siteoforigin:,,,/Resources/火柴黑白.PNG" Height="76" Width="29" Canvas.Left="1192" Canvas.Top="132" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Border BorderBrush="Black" BorderThickness="1" Height="192" Width="1280" Canvas.Left="10" Canvas.Top="10">
+                    <Border.Effect>
+                        <BlurEffect KernelType="Box"/>
+                    </Border.Effect>
+                </Border>
+                <TextBox x:Name="inputtext" Height="39" Width="236" Canvas.Left="166" Canvas.Top="230" Background="#FFFCFCFC" Text="" FontSize="24" TextAlignment="Left" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" TextChanged="Inputtext_TextChanged"/>
+                <Label Content="输入表达式:" Canvas.Left="26" Canvas.Top="228" FontSize="24"/>
+                <TextBox x:Name="outputtext" Height="130" TextWrapping="Wrap" Width="235" Canvas.Left="166" Canvas.Top="288" Background="#FFFCFCFC" Text="" FontSize="24" TextAlignment="Left" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" IsReadOnly="True"/>
+                <Label Content="输出表达式:" Canvas.Left="26" Canvas.Top="287" FontSize="24"/>
+                <Button x:Name="Display_question" Content="显示题目" Width="96" Canvas.Left="424" Canvas.Top="231" Height="39" FontSize="22" Click="Display_question_Click"/>
+                <Button x:Name="Search" Content="搜索" Width="96" Canvas.Left="424" Canvas.Top="288" Height="39" FontSize="22" Click="Search_Click" IsEnabled="False"/>
+                <ComboBox x:Name="Difficulty" Width="140" Canvas.Left="770" Canvas.Top="232" Height="39" SelectionChanged="Difficulty_SelectionChanged" FontSize="22" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Label Content="题库难度:" Canvas.Left="563" Canvas.Top="229" Height="38" Width="110" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="22"/>
+                <Label Content="题库题目:" Canvas.Left="946" Canvas.Top="232" Width="110" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="38"/>
+                <ComboBox x:Name="Question" Width="140" Canvas.Left="1079" Canvas.Top="230" Height="39" FontSize="22" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" SelectionChanged="Question_SelectionChanged"/>
+                <Label Content="解答选择:" Canvas.Left="563" Canvas.Top="350" Width="110" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="38"/>
+                <ComboBox x:Name="Answer" Width="140" Canvas.Left="770" Canvas.Top="349" Height="39" FontSize="22" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" SelectionChanged="Answer_SelectionChanged"/>
+                <Button x:Name="DisplayAnswer" Content="显示解答" Width="96" Canvas.Left="424" Canvas.Top="350" Height="39" FontSize="22" Click="DisplayAnswer_Click" IsEnabled="False"/>
+                <Label Content="可移动火柴数目：" Canvas.Left="563" Canvas.Top="289" Height="39" Width="176" FontSize="22"/>
+                <ComboBox x:Name="Num" Width="140" Canvas.Left="769" Canvas.Top="292" Height="36" FontSize="22" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+            </Canvas>
+        </Viewbox>
+
+    </Grid>
+</Window>
